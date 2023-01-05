@@ -49,6 +49,11 @@
     "label" : "8 Fi 201 -  Plan de l'abbaye de Foigny. (ordre de Citaux)    Sans date",
     "canvases" : [ {
       "@id" : "https://archives.aisne.fr/ark:/63271/vta9961dbffe63f5dc0/canvas/0/1",
+      "otherContent": [ {
+        "@id": "https://iiif-test.github.io/BLJan2022/annotations/ce1d6509b5ec52275691847dd08d36b5.json",
+        "@type": "sc:AnnotationList",
+        "label": "My fantastic annotations"
+      } ],
       "@type" : "sc:Canvas",
       "label" : "Plan de l'abbaye de Foigny. (ordre de Citaux)",
       "width" : 3295,
