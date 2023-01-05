@@ -1,0 +1,13 @@
+{
+  "id" : "https://SjdkC.github.io/plansAbbayes/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in SjdkC/plansAbbayes project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://SjdkC.github.io/plansAbbayes/manifests/test_abbayes_manifest.json",
+    "label" : "Test - Démo IIIF plans d'abbayes"
+  } ]
+}
