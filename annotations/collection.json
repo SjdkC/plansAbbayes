@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://SjdkC.github.io/plansAbbayes/annotations/abbayeFoigny.json" ],
+  "@id" : "https://SjdkC.github.io/plansAbbayes/annotations/collection.json",
+  "label" : "All annotations loaded in SjdkC/plansAbbayes project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
