@@ -50,7 +50,7 @@
     "canvases" : [ {
       "@id" : "https://archives.aisne.fr/ark:/63271/vta9961dbffe63f5dc0/canvas/0/1",
       "otherContent": [ {
-        "@id": "https://demos-dev.biblissima.fr/simpleAnnotationStore/annotation/list/958586b1a23abec78b6e18e65443b662.json",
+        "@id": "https://sjdkc.github.io/plansAbbayes/manifests/test_abbayes_manifest.json",
         "@type": "sc:AnnotationList",
         "label": "My fantastic annotations"
     }],
