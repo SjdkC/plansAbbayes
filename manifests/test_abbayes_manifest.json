@@ -3,6 +3,11 @@
   "@type" : "sc:Manifest",
   "@id" : "https://SjdkC.github.io/plansAbbayes/manifests/test_abbayes_manifest.json",
   "label" : "Test - Démo IIIF plans d'abbayes",
+  "service": {
+    "profile": "http://iiif.io/api/search/0/search",
+    "@id": "https://dev.gdmrdigital.com/search-api/1245635613/92724884/0bab253bf9bc489dc36ad7d2c1ccdeb0/search",
+    "@context": "http://iiif.io/api/search/0/context.json"
+  },
   "logo" : {
     "@id" : "https://archives.aisne.fr/img/logo_cg00.png"
   },
