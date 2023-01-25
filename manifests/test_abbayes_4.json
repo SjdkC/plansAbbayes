@@ -1,0 +1,111 @@
+{
+  "@context" : "https://iiif.io/api/presentation/2/context.json",
+  "@type" : "sc:Manifest",
+  "@id" : "https://SjdkC.github.io/plansAbbayes/manifests/test_abbayes_manifest.json",
+  "label" : "Test - Démo IIIF plans d'abbayes",
+  "service": {
+    "profile": "http://iiif.io/api/search/0/search",
+    "@id": "https://dev.gdmrdigital.com/search-api/1245635613/92724884/0bab253bf9bc489dc36ad7d2c1ccdeb0/search",
+    "@context": "http://iiif.io/api/search/0/context.json"
+  },
+  "logo" : {
+    "@id" : "https://archives.aisne.fr/img/logo_cg00.png"
+  },
+  "metadata" : [ {
+    "label" : "Contenu",
+    "value" : "Plan de l'abbaye cistercienne de Foigny"
+  }, {
+    "label" : "Cote ancienne",
+    "value" : "8 Fi Bouteille (La) 7"
+  }, {
+    "label" : "Dimensions",
+    "value" : "20,1 x 25,6"
+  }, {
+    "label" : "Importance matérielle",
+    "value" : "Papier collé sur papier"
+  }, {
+    "label" : "Sujet",
+    "value" : "Abbaye / Etendue d'eau"
+  }, {
+    "label" : "Lieu",
+    "value" : "La Bouteille (Aisne)"
+  }, {
+    "label" : "Personne",
+    "value" : "[Amédée Piette] / [Amédée Piette]"
+  }, {
+    "label" : "Type de document",
+    "value" : "Dessin, Crayon noir repassé à la plume encre sépia"
+  } ],
+  "ligeoReUseProfil" : {
+    "content" : "<p>La reproduction et la réutilisation des archives numérisées mises en ligne par les Archives départementales de l'Aisne sont soumises à à la législation en vigueur et aux conditions fixées par le conseil départemental.</p>\n<p>Plus de renseignements sur <a href=\"https://antiphishing.vadesecure.com/v4?f=ZmttOUJBaHM0cVJhc0pLb6IbE-ikSRmdN98u1wKkzhsafb24OmQZANZeAI6uCjmGlPwE1rYDBF5O_zeFtCq8Qw&i=SXhidDdiNE5weDlFTk1JSPH6NF3k93PM8RGMqIpay2c&k=AKCY&r=MDl4M3AxU2RhSHpiVVJtMDefJu1aMFUySAfE_nVwyvPADHEtPM53mAJk8SUcq_Bb&s=50411486c31474883a07eb6d7fa6c7f22bd8535faa799c2debc03ebc9f4a3bd7&u=https%3A%2F%2Farchives.aisne.fr%2Fn%2Fconditions-de-reproduction-et-de-reutilisation%2Fn%3A163\">https://archives.aisne.fr/n/conditions-de-reproduction-et-de-reutilisation/n:163</a></p>",
+    "download" : 4,
+    "asyncBulkDownloadUrl" : "https://archives.aisne.fr/archive/xhr/xhr_monocleDownload",
+    "manifestDownloadable" : false
+  },
+  "ligeoIsIndexable" : false,
+  "service" : {
+    "@context" : "https://iiif.io/api/search/1/context.json",
+    "@id" : "https://archives.aisne.fr/iiif/Fonds_icono/Fonds_icono_008Fi/FRAD002_Fonds_icono_008Fi_00201_1.jpg",
+    "profile" : "https://iiif.io/api/search/1/search"
+  },
+  "sequences" : [ {
+    "@id" : "https://archives.aisne.fr/ark:/63271/vta9961dbffe63f5dc0/daogrp/0",
+    "@type" : "sc:Sequence",
+    "label" : "8 Fi 201 -  Plan de l'abbaye de Foigny. (ordre de Citaux)    Sans date",
+    "canvases" : [ {
+      "@id" : "https://archives.aisne.fr/ark:/63271/vta9961dbffe63f5dc0/canvas/0/1",
+      "otherContent": [ {
+        "@id": "https://api.npoint.io/9b32e94e9c3dd08d4253",
+        "@type": "sc:AnnotationList",
+        "label": "My fantastic annotations"
+    }],
+      "@type" : "sc:Canvas",
+      "label" : "Plan de l'abbaye de Foigny. (ordre de Citaux)",
+      "width" : 3295,
+      "height" : 2580,
+      "rendering" : [ {
+        "@id" : "https://archives.aisne.fr/cgi-bin/iipsrv.fcgi?PY=1&FIF=%2Fhome%2Fhttpd%2Fad02%2Fdiffusion%2Fprod%2Fapp%2Fwebroot%2Fdata%2Ffiles%2Fad02.diffusion%2Fimages%2FFonds_icono%2FFonds_icono_008Fi%2FFRAD002_Fonds_icono_008Fi_00201_1.jpg&HEI=800&CVT=JPG",
+        "label" : "Télécharger le document courant",
+        "format" : "image/jpg"
+      }, {
+        "@id" : "https://archives.aisne.fr/archive/download?file=https%3A%2F%2Farchives.aisne.fr%2Fdata%2Ffiles%2Fad02.diffusion%2Fimages%2FFonds_icono%2FFonds_icono_008Fi%2FFRAD002_Fonds_icono_008Fi_00201_1.jpg",
+        "label" : "Télécharger le document original",
+        "format" : "image/jpg"
+      } ],
+      "ligeoPermalink" : "https://archives.aisne.fr/ark:/63271/vta9961dbffe63f5dc0/daogrp/0/1",
+      "thumbnail" : "https://archives.aisne.fr/cgi-bin/iipsrv.fcgi?FIF=%2Fhome%2Fhttpd%2Fad02%2Fdiffusion%2Fprod%2Fapp%2Fwebroot%2Fdata%2Ffiles%2Fad02.diffusion%2Fimages%2FFonds_icono%2FFonds_icono_008Fi%2FFRAD002_Fonds_icono_008Fi_00201_1.jpg&PY=1&HEI=80&QLT=80&CVT=JPG&SIZE=0&MTIME=0",
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "@id" : "https://archives.aisne.fr/archive/download?file=https%3A%2F%2Farchives.aisne.fr%2Fdata%2Ffiles%2Fad02.diffusion%2Fimages%2FFonds_icono%2FFonds_icono_008Fi%2FFRAD002_Fonds_icono_008Fi_00201_1.jpg",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://archives.aisne.fr/archive/download?file=https%3A%2F%2Farchives.aisne.fr%2Fdata%2Ffiles%2Fad02.diffusion%2Fimages%2FFonds_icono%2FFonds_icono_008Fi%2FFRAD002_Fonds_icono_008Fi_00201_1.jpg",
+          "@type" : "dctypes:Image",
+          "service" : {
+            "@context" : "https://iiif.io/api/image/2/context.json",
+            "@id" : "https://archives.aisne.fr/iiif/Fonds_icono/Fonds_icono_008Fi/FRAD002_Fonds_icono_008Fi_00201_1.jpg",
+            "profile" : "https://iiif.io/api/image/2/level1.json"
+          },
+          "format" : "image/jpeg",
+          "width" : 3295,
+          "height" : 2580
+        },
+        "on" : "https://archives.aisne.fr/ark:/63271/vta9961dbffe63f5dc0/canvas/0/1"
+      } ],    
+      
+      "ligeoRestrictedAccess" : false,
+      "ligeoIsSearchable" : false,
+      "ligeoClasseur" : {
+        "strImageBase" : "FRAD002_Fonds_icono_008Fi_00201_1",
+        "strImageDir" : "images/Fonds_icono/Fonds_icono_008Fi",
+        "curTag" : "daogrp",
+        "curTagnum" : 0,
+        "notice_id" : "46204",
+        "ark" : "/ark:/63271/vta9961dbffe63f5dc0",
+        "unitid" : "8 Fi 201",
+        "eadid" : "FRAD002_8FI"
+      },
+      "ligeoMediaPath" : "/home/httpd/ad02/diffusion/prod/app/webroot/data/files/ad02.diffusion/images/Fonds_icono/Fonds_icono_008Fi/FRAD002_Fonds_icono_008Fi_00201_1.jpg"
+    } ]
+  } ]
+}
