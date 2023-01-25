@@ -1,12 +1,11 @@
 {
-
     "@context": "https://iiif.io/api/presentation/2/context.json",
     "@type": "sc:Manifest",
-    "@id": "https://dev.gdmrdigital.com/manifests/1245635613/92724884/0bab253bf9bc489dc36ad7d2c1ccdeb0.json",
+    "@id": "https://api.npoint.io/a309594dbf0582d84b22",
     "label": "Test - Démo IIIF plans d'abbayes",
     "service": {
     "profile": "http://iiif.io/api/search/0/search",
-    "@id": "https://dev.gdmrdigital.com/search-api/1245635613/92724884/0bab253bf9bc489dc36ad7d2c1ccdeb0/search",
+    "@id": "https://archives.aisne.fr/iiif/Fonds_icono/Fonds_icono_008Fi/FRAD002_Fonds_icono_008Fi_00201_1.jpg",
     "@context": "http://iiif.io/api/search/0/context.json"
     },
     "logo": {
@@ -56,7 +55,7 @@
     "service": [
         {
             "@context": "https://iiif.io/api/search/1/context.json",
-            "@id": "https://archives.aisne.fr/ark:/63271/vta9961dbffe63f5dc0/iiif/search",
+            "@id": "https://archives.aisne.fr/iiif/Fonds_icono/Fonds_icono_008Fi/FRAD002_Fonds_icono_008Fi_00201_1.jpg",
             "profile": "https://iiif.io/api/search/1/search"
         },
         {
@@ -76,7 +75,7 @@
                     "@type": "sc:Canvas",
                     "label": "Plan de l'abbaye de Foigny. (ordre de Citaux)",
                     "width": 3295,
-                    "height": 3295,
+                    "height": 2580,
                     "rendering": [
                         {
                             "@id": "https://archives.aisne.fr/cgi-bin/iipsrv.fcgi?PY=1&FIF=%2Fhome%2Fhttpd%2Fad02%2Fdiffusion%2Fprod%2Fapp%2Fwebroot%2Fdata%2Ffiles%2Fad02.diffusion%2Fimages%2FFonds_icono%2FFonds_icono_008Fi%2FFRAD002_Fonds_icono_008Fi_00201_1.jpg&HEI=800&CVT=JPG",
@@ -106,7 +105,7 @@
                                 },
                                 "format": "image/jpeg",
                                 "width": 3295,
-                                "height": 3295
+                                "height": 2580
                             },
                             "on": "https://archives.aisne.fr/ark:/63271/vta9961dbffe63f5dc0/canvas/0/1"
                         }
@@ -124,13 +123,6 @@
                         "eadid": "FRAD002_8FI"
                     },
                     "ligeoMediaPath": "/home/httpd/ad02/diffusion/prod/app/webroot/data/files/ad02.diffusion/images/Fonds_icono/Fonds_icono_008Fi/FRAD002_Fonds_icono_008Fi_00201_1.jpg",
-                    "otherContent": [
-                        {
-                            "@type": "sc:AnnotationList",
-                            "@id": "https://dev.gdmrdigital.com/annotations/1245635613/92724884/c4764f10bb86758a1c197596efabc524.json",
-                            "label": "Annotations for canvas Plan de l'abbaye de Foigny. (ordre de Citaux)"
-                        }
-                    ]
                 }
             ]
         }
