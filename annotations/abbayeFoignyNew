@@ -1,0 +1,100 @@
+{
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "resource": [
+                {
+                    "http://dev.llgc.org.uk/sas/full_text": "",
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": ""
+                },
+                {
+                    "http://dev.llgc.org.uk/sas/full_text": "bibliotheque",
+                    "@type": "oa:Tag",
+                    "chars": "bibliotheque"
+                }
+            ],
+            "@type": "oa:Annotation",
+            "dcterms:creator": "https://dev.gdmrdigital.com/user/1245635613/92724884",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "dcterms:created": "2023-01-05T13:47:44",
+            "@id": "https://dev.gdmrdigital.com/annotation/anno/1672926464613",
+            "dcterms:modified": "2023-01-05T13:48:14",
+            "@context": "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+            "on": [
+                {
+                    "within": {
+                        "@type": "sc:Manifest",
+                        "@id": "https://SjdkC.github.io/plansAbbayes/manifests/test_abbayes_manifest.json"
+                    },
+                    "@type": "oa:SpecificResource",
+                    "selector": {
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=1313,1695,26,40"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1325.89055,1734.30062c0,-8.78914 4.39457,-17.57828 13.18371,-26.36742c0,-7.28117 -5.90255,-13.18371 -13.18371,-13.18371c-7.28117,0 -13.18371,5.90255 -13.18371,13.18371c8.78914,8.78914 13.18371,17.57828 13.18371,26.36742z\" data-paper-data=\"{&quot;strokeWidth&quot;:3,&quot;fixedSize&quot;:true,&quot;annotation&quot;:null,&quot;editable&quot;:true}\" id=\"pin_4c4ff279-ab33-4619-b5dd-a1c3fd58f3b3\" fill-opacity=\"0.43\" fill=\"#7878e9\" fill-rule=\"nonzero\" stroke=\"#0000ff\" stroke-width=\"4\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        },
+                        "@type": "oa:Choice"
+                    },
+                    "full": "https://archives.aisne.fr/ark:/63271/vta9961dbffe63f5dc0/canvas/0/1"
+                }
+            ]
+        },
+        {
+            "resource": [
+                {
+                    "http://dev.llgc.org.uk/sas/full_text": "",
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": ""
+                },
+                {
+                    "http://dev.llgc.org.uk/sas/full_text": "bibliotheque",
+                    "@type": "oa:Tag",
+                    "chars": "bibliotheque"
+                }
+            ],
+            "@type": "oa:Annotation",
+            "dcterms:creator": "https://dev.gdmrdigital.com/user/1245635613/92724884",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "dcterms:created": "2023-01-05T13:44:40",
+            "@id": "https://dev.gdmrdigital.com/annotation/anno/1672926280969",
+            "dcterms:modified": "2023-01-05T13:48:23",
+            "@context": "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+            "on": [
+                {
+                    "within": {
+                        "@type": "sc:Manifest",
+                        "@id": "https://SjdkC.github.io/plansAbbayes/manifests/test_abbayes_manifest.json"
+                    },
+                    "@type": "oa:SpecificResource",
+                    "selector": {
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=816,728,247,82"
+                        },
+                        "item": {
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M816.34154,728.39355h123.44512v0h123.44512v40.79466v40.79466h-123.44512h-123.44512v-40.79466z\" data-paper-data=\"{&quot;strokeWidth&quot;:3,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0,1],&quot;editable&quot;:true}\" id=\"rectangle_27a695bb-d8ae-4de3-8ff1-5d4855cf5c23\" fill-opacity=\"0.43\" fill=\"#7878e9\" fill-rule=\"nonzero\" stroke=\"#0000ff\" stroke-width=\"2\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        },
+                        "@type": "oa:Choice"
+                    },
+                    "full": "https://archives.aisne.fr/ark:/63271/vta9961dbffe63f5dc0/canvas/0/1"
+                }
+            ]
+        }
+    ],
+    "@id": "https://SjdkC.github.io/plansAbbayes/annotations/abbayeFoigny.json",
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+
+}
