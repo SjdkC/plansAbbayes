@@ -1,7 +1,7 @@
 {
-  "@context" : "https://iiif.io/api/presentation/2/context.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
   "@type" : "sc:Manifest",
-  "@id" : "https://SjdkC.github.io/plansAbbayes/manifests/test_abbayes_manifest.json",
+  "@id" : "https://raw.githubusercontent.com/SjdkC/plansAbbayes/main/manifests/test_abbayes_4.json",
   "label" : "Test - Démo IIIF plans d'abbayes",
   "service": {
     "profile": "http://iiif.io/api/search/0/search",
