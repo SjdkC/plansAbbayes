@@ -55,7 +55,7 @@
     "canvases" : [ {
       "@id" : "https://archives.aisne.fr/ark:/63271/vta9961dbffe63f5dc0/canvas/0/1",
       "otherContent": [ {
-        "@id": "https://api.npoint.io/9b32e94e9c3dd08d4253",
+        "@id": "https://raw.githubusercontent.com/SjdkC/plansAbbayes/main/annotations/abbayeFoignyNew.json",
         "@type": "sc:AnnotationList",
         "label": "My fantastic annotations"
     }],
