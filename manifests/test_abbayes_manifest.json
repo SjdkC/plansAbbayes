@@ -1,5 +1,5 @@
 {
-  "@context" : "https://iiif.io/api/presentation/2/context.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
   "@type" : "sc:Manifest",
   "@id" : "https://SjdkC.github.io/plansAbbayes/manifests/test_abbayes_manifest.json",
   "label" : "Test - Démo IIIF plans d'abbayes",
@@ -55,7 +55,7 @@
     "canvases" : [ {
       "@id" : "https://archives.aisne.fr/ark:/63271/vta9961dbffe63f5dc0/canvas/0/1",
       "otherContent": [ {
-        "@id": "https://sjdkc.github.io/plansAbbayes/annotations/abbayeFoigny.json",
+        "@id": "https://sjdkc.github.io/plansAbbayes/annotations/abbayeFoignyNew.json",
         "@type": "sc:AnnotationList",
         "label": "My fantastic annotations"
     }],
