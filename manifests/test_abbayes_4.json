@@ -45,7 +45,7 @@
   "ligeoIsIndexable" : false,
   "service" : {
     "@context" : "https://iiif.io/api/search/1/context.json",
-    "@id" : "https://archives.aisne.fr/iiif/Fonds_icono/Fonds_icono_008Fi/FRAD002_Fonds_icono_008Fi_00201_1.jpg",
+    "@id" : "https://archives.aisne.fr/ark:/63271/vta9961dbffe63f5dc0/iiif/search",
     "profile" : "https://iiif.io/api/search/1/search"
   },
   "sequences" : [ {
